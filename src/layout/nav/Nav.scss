@@ -3,19 +3,10 @@ nav{
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    padding-right: 150px;
 }
-.nav__logo{
-    display: flex;
-    align-items: center;
-    gap: 0px 20px;
-    h1{
-        color: var(--text-main-color);
-        font-family: var(--Raleway-sans);
-        // font-size: 30px;
-        font-weight: 600;
-    }
-}
+
 .nav-menu{
     height: 100%;
     display: flex;

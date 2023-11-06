@@ -1,15 +1,11 @@
 import "./Nav.scss"
-// import { Container } from "../../utils/Utils"
+import { Container } from "../../utils/Utils"
 import { NavLink, Link } from "react-router-dom"
 import Logo from "../../assets/images/logo.svg"
 const Nav = () => {
   return (
 
       <nav>
-        <div className="nav__logo">
-          <img src={Logo} alt="Logo of Company" />
-          <h1>DREAM CLOUD</h1>
-        </div>
         <div className="nav__menu-container">
           <ul className="nav-menu">
             <li>
