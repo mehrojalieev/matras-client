@@ -1,12 +1,12 @@
 import './App.scss'
+import Home from './routes/home/Home'
 
 function App() {
 
 
   return (
     <div className='App'>
-      <h2>App</h2>
-      <h1>App</h1>
+      <Home/>
     </div>
   )
 }

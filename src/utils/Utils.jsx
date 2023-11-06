@@ -6,4 +6,12 @@ const Utils = () => {
   )
 }
 
-export default Utils
+const Container = () => {
+  return (
+    <div className="container">
+        
+    </div>
+  )
+}
+
+export  {Utils, Container}
