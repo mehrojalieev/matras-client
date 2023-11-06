@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --home-bg: rgba(234, 191, 159, 1);
+  --content-bg-color: rgba(199, 223, 245, 1);
+  --text-main-color: rgba(1, 56, 77, 1);
+  --text-danger: rgba(255, 107, 107, 1);
+  --text-success: rgba(31, 202, 37, 1);
+  --Raleway-sans: 'Raleway', sans-serif;
+  --Open-sans: 'Open Sans', sans-serif;
+}
+
+
+button{
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+button:active{
+  transform: scale(0.95);
+}
