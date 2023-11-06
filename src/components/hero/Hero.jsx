@@ -1,5 +1,5 @@
 import "./Hero.scss"
-import Nav from '&d'
+import Nav from "../../layout/nav/Nav"
 const Hero = () => {
   return (
     <>
