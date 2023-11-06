@@ -1,8 +1,11 @@
 import React from 'react'
+import Features from '../../components/features/Features'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Features/>
+    </div>
   )
 }
 
