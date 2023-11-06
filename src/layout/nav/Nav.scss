@@ -1,0 +1,38 @@
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__logo{
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+    h1{
+        color: var(--text-main-color);
+        font-family: var(--Raleway-sans);
+        // font-size: 30px;
+        font-weight: 600;
+    }
+}
+.nav-menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0px 50px;
+    list-style-type: none;
+    .link{
+        color: var(--text-main-color);
+        font-family: var(--Raleway-sans);
+        font-weight: 500;
+        font-size: 1rem;
+        text-decoration: none;
+        
+    }
+}
+.link--active{
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+

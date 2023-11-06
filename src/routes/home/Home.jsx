@@ -1,11 +1,12 @@
-import React from 'react'
-import Features from '../../components/features/Features'
-
+import Nav from "../../layout/nav/Nav"
+import Hero from "../../components/hero/Hero"
 const Home = () => {
   return (
-    <div>
-      <Features/>
-    </div>
+    <>
+      <Hero/>
+      
+    </>
+
   )
 }
 
