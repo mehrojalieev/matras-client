@@ -1,7 +1,6 @@
 footer{
     width: 100%;
     height: 155px;
-    border: 1px solid black;
 }
 .footer__menu{
     width: 100%;
@@ -9,6 +8,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .footer__menu > ul{
     display: flex;
@@ -37,4 +37,15 @@ footer{
             
         }
     }
+}
+
+.footer__info{
+    margin-top: 50px;
+    width: 1080px;
+    border-top: 1px solid var(--text-main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5px;
+    margin: auto;
 }

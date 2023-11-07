@@ -1,6 +1,7 @@
 import "./Footer.scss"
 import { Link } from "react-router-dom"
-import {AiFillFacebook, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube} from "react-icons/ai"
+import {AiFillFacebook, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube, AiOutlineArrowUp} from "react-icons/ai"
+import FooterImage from "../../assets/images/made-company.svg"
 const Footer = () => {
   return (
     <>
@@ -19,7 +20,11 @@ const Footer = () => {
         <a href="#"><AiFillYoutube/></a>
         </div>
         </div>
-
+      <div className="footer__info">
+          <p>  © 2021 Dream Cloud. Barcha huquqlar himoyalangan.  </p>
+          <a href="/"><AiOutlineArrowUp/></a>
+          <img src={FooterImage} alt="Made by Company" />
+      </div>
       </footer>
     </>
   )
