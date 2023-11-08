@@ -1,0 +1,40 @@
+.address-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.address-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+    h3{
+        color: var(--text-main-color);
+        font-size: 50px;
+    }
+    h6{
+        font-size: 30px;
+        color: var(--text-main-color);
+        margin-top: 30px;
+    }
+    p{
+        width: 450px;
+        font-size: 18px;
+        color: var(--text-main-color);
+    }
+    button{
+        margin-top: 20px;
+        width: 350px;
+        padding: 10px 0;
+        color: var(--text-main-color);
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px 10px;
+        border: 2px solid var(--text-main-color);
+        border-radius: 5px;
+        background-color: transparent;
+    }
+}
