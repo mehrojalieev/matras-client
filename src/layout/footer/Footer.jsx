@@ -1,12 +1,14 @@
 import "./Footer.scss"
 import { Link } from "react-router-dom"
+import { Container } from "../../utils/Utils"
 import {AiFillFacebook, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube, AiOutlineArrowUp} from "react-icons/ai"
 import FooterImage from "../../assets/images/made-company.svg"
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer__menu">
+       <Container>
+       <div className="footer__menu">
           <ul>
             <li><Link>Biz haqimizda</Link></li>
             <li><Link>Katalog</Link></li>
@@ -25,6 +27,7 @@ const Footer = () => {
           <a href="/"><AiOutlineArrowUp/></a>
           <img src={FooterImage} alt="Made by Company" />
       </div>
+       </Container>
       </footer>
     </>
   )

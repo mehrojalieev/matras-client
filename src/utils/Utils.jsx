@@ -6,10 +6,10 @@ const Utils = () => {
   )
 }
 
-const Container = () => {
+const Container = ({children}) => {
   return (
     <div className="container">
-        
+        {children}
     </div>
   )
 }
