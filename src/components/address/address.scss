@@ -8,15 +8,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px 0;
+    gap: 10px 0;
     h3{
+        display: flex;
+        align-items: center;
+        gap: 0px 20px;
         color: var(--text-main-color);
         font-size: 50px;
+        i{
+            font-size: 45px;
+            color: rgb(197, 70, 70) !important;
+        }
     }
     h6{
         font-size: 30px;
         color: var(--text-main-color);
-        margin-top: 30px;
+        margin-top: 10px;
     }
     p{
         width: 450px;
