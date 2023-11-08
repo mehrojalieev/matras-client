@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
 }
 
 .connect__wrapper {
@@ -51,10 +52,16 @@
     }
     input {
         height: 100%;
-        font-size: 16px;
+        flex: 1;
+        color: var(--text-main-color);
+        font-size: 18px;
         font-weight: 600;
         border: none;
         outline: none;
+        padding-right: 15px;
+        letter-spacing: 5px;
+        text-indent: 10px;
+        // -moz-appearance: textfield;
     }
 }
 
