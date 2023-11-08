@@ -4,6 +4,9 @@ import Features from "../../components/features/Features"
 import Statics from "../../components/statics/Statics"
 import Footer from "../../layout/footer/Footer"
 import Address from "../../components/address/Address"
+import Connect from "../../components/connect/Connect"
+import Success from "../../components/connect/Success"
+
 const Home = () => {
   return (
     <>
@@ -11,6 +14,8 @@ const Home = () => {
       <Statics/>
       <Features/>
       <Address/>
+      <Connect/>
+      {/* <Success/> */}
       <Footer/>
     </>
 
