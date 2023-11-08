@@ -1,8 +1,10 @@
+import { Container } from "../../utils/Utils"
 import "./Statics.scss"
 
 const Statics = () => {
     return (
-        <div className="static-wrapper">
+      <Container>
+          <div className="static-wrapper">
             <div className="static__info">
                 <h2>7</h2>
                 <strong>yillik tajriba</strong>
@@ -20,6 +22,7 @@ const Statics = () => {
                 <strong>kunda yetkazish</strong>
             </div>
         </div>
+      </Container>
     )
 }
 

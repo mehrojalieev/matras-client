@@ -2,10 +2,12 @@ import "./Features.scss";
 import FirstCard from "../../assets/home-features/first-card.png";
 import Support from "../../assets/home-features/support.png";
 import Progress from "../../assets/home-features/support.png"
+import { Container } from "../../utils/Utils";
 
 const Features = () => {
   return (
-    <div className="home-features">
+   <Container>
+     <div className="home-features">
       <h2 className="home-features__title">Nega bizni tanlashadi</h2>
       <div className="home-features__cards">
         
@@ -34,6 +36,7 @@ const Features = () => {
         </div>
       </div>
     </div>
+   </Container>
   )
 }
 

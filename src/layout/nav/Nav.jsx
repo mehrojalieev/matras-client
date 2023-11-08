@@ -5,7 +5,8 @@ import Logo from "../../assets/images/logo.svg"
 const Nav = () => {
   return (
 
-      <nav>
+      <Container>
+        <nav>
         <div className="nav__menu-container">
           <ul className="nav-menu">
             <li>
@@ -26,6 +27,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
+      </Container>
   )
 }
 
